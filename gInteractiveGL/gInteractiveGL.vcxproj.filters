@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gInteractiveGL\main_interactive_gl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\file_png.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\file_tga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\main_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ask85\Documents\include\gvdb.h">
+      <Filter>GVDB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\sample_utils\file_png.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\sample_utils\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\sample_utils\nv_gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gInteractiveGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include">
+      <Filter>CUDA</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1E3A7356-B44C-30BC-9FB7-33C823EA06F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AD0220D2-29B5-3F7B-B5D3-AB0284057C6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GVDB">
+      <UniqueIdentifier>{27502194-204B-304F-86DA-C329C8DE72DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA">
+      <UniqueIdentifier>{11F3D11D-F223-3AE8-A726-B862802F9847}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

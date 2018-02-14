@@ -1,0 +1,338 @@
+﻿Build started 7/11/2017 1:13:52 PM.
+     1>Project "C:\Users\ask85\Documents\GVDB_build\build\libgvdb.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\ask85\Documents\source\gvdb_library\glew\include /IC:\Users\ask85\Documents\source\gvdb_library\src /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "RESOURCE_DIRECTORY=\"C:/Users/ask85/Documents/source/gvdb_library/resources/\"" /D NOMINMAX /D MEMORY_LEAKS_CHECK /D GLEW_STATIC /D GLEW_NO_GLU /D "PROJECT_RELDIRECTORY=\"../../source/gvdb_library/\"" /D "PROJECT_ABSDIRECTORY=\"C:/Users/ask85/Documents/source/gvdb_library/\"" /D "PROJECT_NAME=\"libgvdb\"" /D USECUDA /D GVDB_EXPORTS /D BUILD_OPENGL /D "CMAKE_INTDIR=\"Debug\"" /D libgvdb_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"libgvdb.dir\Debug\\" /Fd"libgvdb.dir\Debug\vc120.pdb" /Gd /TP /wd4267 /wd4996 /wd4244 /wd4305 /analyze- /errorReport:prompt C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_volume_gvdb.cpp
+         gvdb_volume_gvdb.cpp
+         gvdb_node
+     1>c:\users\ask85\documents\source\gvdb_library\src\gvdb_node.h(125): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\ask85\documents\source\gvdb_library\src\gvdb_node.h(137): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_volume_gvdb.cpp(2120): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_volume_gvdb.cpp(2501): warning C4018: '>=' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_volume_gvdb.cpp(2530): warning C4018: '>=' : signed/unsigned mismatch
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\ask85\Documents\source\gvdb_library\glew\include /IC:\Users\ask85\Documents\source\gvdb_library\src /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "RESOURCE_DIRECTORY=\"C:/Users/ask85/Documents/source/gvdb_library/resources/\"" /D NOMINMAX /D MEMORY_LEAKS_CHECK /D GLEW_STATIC /D GLEW_NO_GLU /D "PROJECT_RELDIRECTORY=\"../../source/gvdb_library/\"" /D "PROJECT_ABSDIRECTORY=\"C:/Users/ask85/Documents/source/gvdb_library/\"" /D "PROJECT_NAME=\"libgvdb\"" /D USECUDA /D GVDB_EXPORTS /D BUILD_OPENGL /D "CMAKE_INTDIR=\"Debug\"" /D libgvdb_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"libgvdb.dir\Debug\\" /Fd"libgvdb.dir\Debug\vc120.pdb" /Gd /TC /wd4267 /wd4996 /wd4244 /wd4305 /analyze- /errorReport:prompt C:\Users\ask85\Documents\source\gvdb_library\glew\src\glew.c
+         glew.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ask85\Documents\GVDB_build\build\Debug\libgvdb.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32\cuda.lib" "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32\cudart.lib" glu32.lib opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ask85/Documents/GVDB_build/build/Debug/libgvdb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ask85/Documents/GVDB_build/build/Debug/libgvdb.lib" /MACHINE:X86 /SAFESEH   /machine:X86 /implib:C:/Users/ask85/Documents/GVDB_build/build/Debug/libgvdb.lib /DLL libgvdb.dir\Debug\app_perf.obj
+         libgvdb.dir\Debug\gvdb_allocator.obj
+         libgvdb.dir\Debug\gvdb_camera.obj
+         libgvdb.dir\Debug\gvdb_model.obj
+         libgvdb.dir\Debug\gvdb_node.obj
+         libgvdb.dir\Debug\gvdb_render_opengl.obj
+         libgvdb.dir\Debug\gvdb_render_optix.obj
+         libgvdb.dir\Debug\gvdb_scene.obj
+         libgvdb.dir\Debug\gvdb_types.obj
+         libgvdb.dir\Debug\gvdb_vec.obj
+         libgvdb.dir\Debug\gvdb_volume_3D.obj
+         libgvdb.dir\Debug\gvdb_volume_base.obj
+         libgvdb.dir\Debug\gvdb_volume_gvdb.obj
+         libgvdb.dir\Debug\loader_OBJReader.obj
+         libgvdb.dir\Debug\loader_ObjarReader.obj
+         libgvdb.dir\Debug\loader_Parser.obj
+         libgvdb.dir\Debug\string_helper.obj
+         libgvdb.dir\Debug\glew.obj
+            Creating library C:/Users/ask85/Documents/GVDB_build/build/Debug/libgvdb.lib and object C:/Users/ask85/Documents/GVDB_build/build/Debug/libgvdb.exp
+         libgvdb.vcxproj -> C:\Users\ask85\Documents\GVDB_build\build\Debug\libgvdb.dll
+       PostBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/app_perf.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/gvdb.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/gvdb_allocator.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/gvdb_camera.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/gvdb_model.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/gvdb_node.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/gvdb_render.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/gvdb_scene.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/gvdb_types.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/gvdb_vec.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/gvdb_volume_3D.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/gvdb_volume_base.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/gvdb_volume_gvdb.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/loader_OBJReader.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/loader_ObjarReader.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/loader_Parser.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/src/string_helper.h C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/kernels/cuda_gvdb.cuh C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/kernels/cuda_gvdb_dda.cuh C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/kernels/cuda_gvdb_geom.cuh C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/kernels/cuda_gvdb_nodes.cuh C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/kernels/cuda_gvdb_operators.cuh C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/kernels/cuda_gvdb_particles.cuh C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/kernels/cuda_gvdb_raycast.cuh C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/kernels/cuda_gvdb_scene.cuh C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/kernels/cuda_math.cuh C:/Users/ask85/Documents/include
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/GVDB_build/build/Debug/libgvdb.dll C:/Users/ask85/Documents/lib
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/GVDB_build/build/Debug/libgvdb.lib C:/Users/ask85/Documents/lib
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/shaders/voxelize.frag.glsl C:/Users/ask85/Documents/lib
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/shaders/voxelize.geom.glsl C:/Users/ask85/Documents/lib
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/source/gvdb_library/shaders/voxelize.vert.glsl C:/Users/ask85/Documents/lib
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/GVDB_build/build/Debug/cuda_gvdb_copydata.ptx C:/Users/ask85/Documents/lib
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/GVDB_build/build/Debug/cuda_gvdb_module.ptx C:/Users/ask85/Documents/lib
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "C:\Users\ask85\Documents\GVDB_build\build\libgvdb.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.78

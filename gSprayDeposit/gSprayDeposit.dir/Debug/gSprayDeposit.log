@@ -1,0 +1,195 @@
+﻿Build started 7/11/2017 4:37:05 PM.
+     1>Project "C:\Users\ask85\Documents\GVDB_build\gSprayDeposit\gSprayDeposit.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/ask85/Documents/source/gSprayDeposit/CMakeLists.txt
+         CMake does not need to re-run because C:/Users/ask85/Documents/GVDB_build/gSprayDeposit/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\ask85\Documents\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /IC:\Users\ask85\Documents\source\sample_utils /IC:\Users\ask85\Documents\source\gSprayDeposit /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D USE_GVDB /D USE_CUDA /D GVDB_IMPORTS /D GLEW_STATIC /D GLEW_NO_GLU /D "ASSET_PATH=\"C:/Users/ask85/Documents/source/shared_assets/\"" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gSprayDeposit.dir\Debug\\" /Fd"gSprayDeposit.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp C:\Users\ask85\Documents\source\sample_utils\file_png.cpp C:\Users\ask85\Documents\source\sample_utils\file_tga.cpp C:\Users\ask85\Documents\source\sample_utils\main_win.cpp C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp
+         main_spray_deposit.cpp
+     1>c:\users\ask85\documents\include\gvdb_vec.h(89): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(92): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(95): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(98): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+         gvdb_node
+     1>c:\users\ask85\documents\include\gvdb_node.h(125): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\ask85\documents\include\gvdb_node.h(137): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\ask85\documents\include\gvdb_node.h(171): warning C4244: 'initializing' : conversion from 'uint64' to 'int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_node.h(190): warning C4244: '+=' : conversion from 'uint64' to 'uint32', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(55): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(56): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(65): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(67): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(68): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(69): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(70): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(76): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(96): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(119): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(123): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(124): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(125): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(126): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(166): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(167): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(174): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(204): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(218): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(231): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(232): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(233): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(236): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(243): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(244): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(247): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(252): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(253): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(268): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(305): warning C4101: 'w' : unreferenced local variable
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(329): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(367): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(397): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gSprayDeposit\main_spray_deposit.cpp(398): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+         file_png.cpp
+     1>C:\Users\ask85\Documents\source\sample_utils\file_png.cpp(356): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\ask85\Documents\source\sample_utils\file_png.cpp(378): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         file_tga.cpp
+     1>C:\Users\ask85\Documents\source\sample_utils\file_tga.cpp(124): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\ask85\Documents\source\sample_utils\file_tga.cpp(241): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         main_win.cpp
+     1>C:\Users\ask85\Documents\source\sample_utils\main_win.cpp(1049): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\main_win.cpp(1071): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\main_win.cpp(1453): warning C4018: '<' : signed/unsigned mismatch
+         nv_gui.cpp
+     1>c:\users\ask85\documents\include\gvdb_vec.h(89): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(92): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(95): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(98): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(106): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(107): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(108): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(122): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(139): warning C4018: '>=' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(141): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(143): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(161): warning C4018: '>=' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(214): warning C4018: '>=' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(231): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(233): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(280): warning C4244: 'initializing' : conversion from 'ulong' to 'unsigned long', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(284): warning C4244: 'argument' : conversion from 'ulong' to 'size_t', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(291): warning C4244: '=' : conversion from 'ulong' to 'int', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(301): warning C4244: 'initializing' : conversion from 'ulong' to 'unsigned long', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(305): warning C4244: 'argument' : conversion from 'ulong' to 'size_t', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(306): warning C4244: 'argument' : conversion from 'ulong' to 'size_t', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(316): warning C4244: '=' : conversion from 'ulong' to 'int', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(324): warning C4244: 'initializing' : conversion from 'ulong' to 'unsigned long', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(328): warning C4244: 'argument' : conversion from 'ulong' to 'size_t', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1011): warning C4244: 'argument' : conversion from 'ulong' to 'GLsizeiptr', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1057): warning C4244: 'argument' : conversion from 'ulong' to 'GLsizei', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1068): warning C4244: 'argument' : conversion from 'ulong' to 'GLsizei', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1077): warning C4244: 'argument' : conversion from 'ulong' to 'GLsizei', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1098): warning C4244: 'argument' : conversion from 'ulong' to 'GLsizei', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1133): warning C4244: 'argument' : conversion from 'ulong' to 'GLsizei', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1186): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1300): warning C4018: '>=' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1324): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1390): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1415): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1434): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1434): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1435): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1437): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1446): warning C4018: '>=' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1448): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1469): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1478): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1487): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1572): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1774): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1797): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\ask85\Documents\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /IC:\Users\ask85\Documents\source\sample_utils /IC:\Users\ask85\Documents\source\gSprayDeposit /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D USE_GVDB /D USE_CUDA /D GVDB_IMPORTS /D GLEW_STATIC /D GLEW_NO_GLU /D "ASSET_PATH=\"C:/Users/ask85/Documents/source/shared_assets/\"" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gSprayDeposit.dir\Debug\\" /Fd"gSprayDeposit.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt C:\Users\ask85\Documents\source\sample_utils\glew.c
+         glew.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ask85\Documents\GVDB_build\gSprayDeposit\gSprayDeposit.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\Users\ask85\Documents\lib\libgvdb.lib "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32\cuda.lib" opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ask85/Documents/GVDB_build/gSprayDeposit/gSprayDeposit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ask85/Documents/GVDB_build/gSprayDeposit/Debug/gSprayDeposit.lib" /MACHINE:X86 /SAFESEH   /machine:X86 gSprayDeposit.dir\Debug\main_spray_deposit.obj
+         gSprayDeposit.dir\Debug\file_png.obj
+         gSprayDeposit.dir\Debug\file_tga.obj
+         gSprayDeposit.dir\Debug\glew.obj
+         gSprayDeposit.dir\Debug\main_win.obj
+         gSprayDeposit.dir\Debug\nv_gui.obj
+            Creating library C:/Users/ask85/Documents/GVDB_build/gSprayDeposit/Debug/gSprayDeposit.lib and object C:/Users/ask85/Documents/GVDB_build/gSprayDeposit/Debug/gSprayDeposit.exp
+         gSprayDeposit.vcxproj -> C:\Users\ask85\Documents\GVDB_build\gSprayDeposit\gSprayDeposit.exe
+       PostBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/voxelize.frag.glsl C:/Users/ask85/Documents/GVDB_build/gSprayDeposit
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/voxelize.geom.glsl C:/Users/ask85/Documents/GVDB_build/gSprayDeposit
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/voxelize.vert.glsl C:/Users/ask85/Documents/GVDB_build/gSprayDeposit
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/cuda_gvdb_copydata.ptx C:/Users/ask85/Documents/GVDB_build/gSprayDeposit
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/cuda_gvdb_module.ptx C:/Users/ask85/Documents/GVDB_build/gSprayDeposit
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/libgvdb.dll C:/Users/ask85/Documents/GVDB_build/gSprayDeposit
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/libgvdb.dll C:/Users/ask85/Documents/GVDB_build/gSprayDeposit
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "C:\Users\ask85\Documents\GVDB_build\gSprayDeposit\gSprayDeposit.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.16

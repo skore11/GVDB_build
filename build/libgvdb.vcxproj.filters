@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\app_perf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_allocator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_render_opengl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_render_optix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_vec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_volume_3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_volume_base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_volume_gvdb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\loader_OBJReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\loader_ObjarReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\loader_Parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\src\string_helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gvdb_library\glew\src\glew.c">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\app_perf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_volume_3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_volume_base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\gvdb_volume_gvdb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\loader_OBJReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\loader_ObjarReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\loader_Parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gvdb_library\src\string_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gvdb_library\kernels\cuda_gvdb_copydata.cu">
+      <Filter>CUDA</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gvdb_library\kernels\cuda_gvdb_module.cu">
+      <Filter>CUDA</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gvdb_library\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="C:\Users\ask85\Documents\source\gvdb_library\kernels\cuda_gvdb.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="C:\Users\ask85\Documents\source\gvdb_library\kernels\cuda_gvdb_dda.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="C:\Users\ask85\Documents\source\gvdb_library\kernels\cuda_gvdb_geom.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="C:\Users\ask85\Documents\source\gvdb_library\kernels\cuda_gvdb_nodes.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="C:\Users\ask85\Documents\source\gvdb_library\kernels\cuda_gvdb_operators.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="C:\Users\ask85\Documents\source\gvdb_library\kernels\cuda_gvdb_particles.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="C:\Users\ask85\Documents\source\gvdb_library\kernels\cuda_gvdb_raycast.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="C:\Users\ask85\Documents\source\gvdb_library\kernels\cuda_gvdb_scene.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="C:\Users\ask85\Documents\source\gvdb_library\kernels\cuda_math.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9C6ED94A-C363-3C50-9ED0-4B5C81328566}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{44BC2BE8-552B-3D03-BAEE-54F9F3BBD5C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA">
+      <UniqueIdentifier>{50B6F1E8-1750-33B3-8068-C5375676EB34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{005E84DB-C017-36FA-AFEA-80CB0B7EE8A6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

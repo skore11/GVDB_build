@@ -1,0 +1,116 @@
+﻿Build started 7/11/2017 1:23:03 PM.
+     1>Project "C:\Users\ask85\Documents\GVDB_build\gRender_Kernel\gRenderKernel.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Generating Debug/render_custom.ptx
+         render_custom.cu
+         Building Custom Rule C:/Users/ask85/Documents/source/gRenderKernel/CMakeLists.txt
+         CMake does not need to re-run because C:/Users/ask85/Documents/GVDB_build/gRender_Kernel/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\ask85\Documents\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /IC:\Users\ask85\Documents\source\sample_utils /IC:\Users\ask85\Documents\source\gRenderKernel /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D USE_GVDB /D USE_CUDA /D GVDB_IMPORTS /D GLEW_STATIC /D GLEW_NO_GLU /D "ASSET_PATH=\"C:/Users/ask85/Documents/source/shared_assets/\"" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gRenderKernel.dir\Debug\\" /Fd"gRenderKernel.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\ask85\Documents\source\gRenderKernel\main_renderkernel.cpp C:\Users\ask85\Documents\source\sample_utils\file_png.cpp
+         main_renderkernel.cpp
+     1>c:\users\ask85\documents\include\gvdb_vec.h(89): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(92): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(95): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(98): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+         gvdb_node
+     1>c:\users\ask85\documents\include\gvdb_node.h(125): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\ask85\documents\include\gvdb_node.h(137): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\ask85\documents\include\gvdb_node.h(171): warning C4244: 'initializing' : conversion from 'uint64' to 'int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_node.h(190): warning C4244: '+=' : conversion from 'uint64' to 'uint32', possible loss of data
+     1>C:\Users\ask85\Documents\source\gRenderKernel\main_renderkernel.cpp(31): warning C4273: 'cudaCheck' : inconsistent dll linkage
+                 c:\users\ask85\documents\include\gvdb_allocator.h(47) : see previous definition of 'cudaCheck'
+     1>C:\Users\ask85\Documents\source\gRenderKernel\main_renderkernel.cpp(92): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\ask85\Documents\source\gRenderKernel\main_renderkernel.cpp(82): warning C4101: 'sz' : unreferenced local variable
+         file_png.cpp
+     1>C:\Users\ask85\Documents\source\sample_utils\file_png.cpp(356): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\ask85\Documents\source\sample_utils\file_png.cpp(378): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\ask85\Documents\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /IC:\Users\ask85\Documents\source\sample_utils /IC:\Users\ask85\Documents\source\gRenderKernel /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D USE_GVDB /D USE_CUDA /D GVDB_IMPORTS /D GLEW_STATIC /D GLEW_NO_GLU /D "ASSET_PATH=\"C:/Users/ask85/Documents/source/shared_assets/\"" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gRenderKernel.dir\Debug\\" /Fd"gRenderKernel.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt C:\Users\ask85\Documents\source\sample_utils\glew.c
+         glew.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ask85\Documents\GVDB_build\gRender_Kernel\gRenderKernel.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\Users\ask85\Documents\lib\libgvdb.lib "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32\cuda.lib" opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ask85/Documents/GVDB_build/gRender_Kernel/gRenderKernel.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ask85/Documents/GVDB_build/gRender_Kernel/Debug/gRenderKernel.lib" /MACHINE:X86 /SAFESEH   /machine:X86 gRenderKernel.dir\Debug\main_renderkernel.obj
+         gRenderKernel.dir\Debug\file_png.obj
+         gRenderKernel.dir\Debug\glew.obj
+            Creating library C:/Users/ask85/Documents/GVDB_build/gRender_Kernel/Debug/gRenderKernel.lib and object C:/Users/ask85/Documents/GVDB_build/gRender_Kernel/Debug/gRenderKernel.exp
+         gRenderKernel.vcxproj -> C:\Users\ask85\Documents\GVDB_build\gRender_Kernel\gRenderKernel.exe
+       PostBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/voxelize.frag.glsl C:/Users/ask85/Documents/GVDB_build/gRender_Kernel
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/voxelize.geom.glsl C:/Users/ask85/Documents/GVDB_build/gRender_Kernel
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/voxelize.vert.glsl C:/Users/ask85/Documents/GVDB_build/gRender_Kernel
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/cuda_gvdb_copydata.ptx C:/Users/ask85/Documents/GVDB_build/gRender_Kernel
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/cuda_gvdb_module.ptx C:/Users/ask85/Documents/GVDB_build/gRender_Kernel
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/libgvdb.dll C:/Users/ask85/Documents/GVDB_build/gRender_Kernel
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/libgvdb.dll C:/Users/ask85/Documents/GVDB_build/gRender_Kernel
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/GVDB_build/gRender_Kernel/Debug/render_custom.ptx C:/Users/ask85/Documents/GVDB_build/gRender_Kernel
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "C:\Users\ask85\Documents\GVDB_build\gRender_Kernel\gRenderKernel.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.87

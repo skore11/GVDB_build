@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gFluidSim\fluid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gFluidSim\fluid_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\file_png.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\file_tga.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\main_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gFluidSim\cutil_math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gFluidSim\fluid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gFluidSim\fluid_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\include\gvdb.h">
+      <Filter>GVDB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\sample_utils\file_png.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\sample_utils\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\sample_utils\nv_gui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gFluidSim\fluid_system_cuda.cu">
+      <Filter>CUDA</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gFluidSim\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="C:\Users\ask85\Documents\source\gFluidSim\fluid_system_cuda.cuh">
+      <Filter>CUDA</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D02EBCBD-D118-341A-937A-D033BE5DE9C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{111B5496-F696-371B-9345-F8038B5ADB8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GVDB">
+      <UniqueIdentifier>{3836B092-6862-3D3E-A893-4075FA2E5CFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA">
+      <UniqueIdentifier>{51498E7C-BD02-3BA9-AE8A-4654F468A36D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

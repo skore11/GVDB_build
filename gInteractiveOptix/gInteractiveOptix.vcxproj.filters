@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gInteractiveOptix\main_interactive_optix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gInteractiveOptix\optix_scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\main_win.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ask85\Documents\source\gInteractiveOptix\optix_scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\include\gvdb.h">
+      <Filter>GVDB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\sample_utils\main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gInteractiveOptix\optix_mesh_intersect.cu">
+      <Filter>OPTIX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gInteractiveOptix\optix_trace_deep.cu">
+      <Filter>OPTIX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gInteractiveOptix\optix_trace_miss.cu">
+      <Filter>OPTIX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gInteractiveOptix\optix_trace_primary.cu">
+      <Filter>OPTIX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gInteractiveOptix\optix_trace_surface.cu">
+      <Filter>OPTIX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gInteractiveOptix\optix_triangle_mesh.cu">
+      <Filter>OPTIX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gInteractiveOptix\optix_vol_intersect.cu">
+      <Filter>OPTIX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gInteractiveOptix\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include">
+      <Filter>CUDA</Filter>
+    </None>
+    <None Include="C:\ProgramData\NVIDIA Corporation\OptiX SDK 4.0.0\include" />
+    <None Include="C:\Users\ask85\Documents\source\gInteractiveOptix\optix_extra_math.cuh">
+      <Filter>OPTIX</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9270FC1D-3D9E-39CB-A925-CC6BFEA27FEA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2D135ECB-A35D-3904-B65E-387BC8C246C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GVDB">
+      <UniqueIdentifier>{58AC07E6-47CB-32ED-9FCC-FDCB631D5C74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA">
+      <UniqueIdentifier>{E779FC82-2674-316C-93AB-4EBA40A8210E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OPTIX">
+      <UniqueIdentifier>{7721424D-274B-3465-9D75-052BA417F629}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

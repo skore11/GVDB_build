@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ask85\Documents\source\gRenderKernel\main_renderkernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\file_png.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ask85\Documents\source\sample_utils\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ask85\Documents\include\gvdb.h">
+      <Filter>GVDB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ask85\Documents\source\sample_utils\file_png.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gRenderKernel\render_custom.cu">
+      <Filter>CUDA</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ask85\Documents\source\gRenderKernel\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include">
+      <Filter>CUDA</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7A066BF8-A6E8-3E83-BF64-3FF0428C55B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{339CA94C-2FDF-3105-917E-DF7E072580F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GVDB">
+      <UniqueIdentifier>{823F834F-E54D-324D-AC2D-D4F81EF77E89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CUDA">
+      <UniqueIdentifier>{498C7B02-2FC9-3CFC-9B8E-93391C5D8B6C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

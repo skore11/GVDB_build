@@ -1,0 +1,237 @@
+﻿Build started 7/10/2017 2:19:49 PM.
+     1>Project "C:\Users\ask85\Documents\GVDB_build\gFluidSim\gFluidSim.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Generating Release/fluid_system_cuda.ptx
+     1>C:/Users/ask85/Documents/include\gvdb_vec.h(125): warning : type qualifier on return type is meaningless
+         
+     1>C:/Users/ask85/Documents/include\gvdb_vec.h(238): warning : type qualifier on return type is meaningless
+         
+     1>fluid_system_cuda.cu(30): warning : variable "poff" was declared but never referenced
+         
+         fluid_system_cuda.cu
+         Building Custom Rule C:/Users/ask85/Documents/source/gFluidSim/CMakeLists.txt
+         CMake does not need to re-run because C:/Users/ask85/Documents/GVDB_build/gFluidSim/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\ask85\Documents\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /IC:\Users\ask85\Documents\source\sample_utils /IC:\Users\ask85\Documents\source\gFluidSim /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D USE_GVDB /D USE_CUDA /D GVDB_IMPORTS /D GLEW_STATIC /D GLEW_NO_GLU /D "ASSET_PATH=\"C:/Users/ask85/Documents/source/shared_assets/\"" /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gFluidSim.dir\Release\\" /Fd"gFluidSim.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\ask85\Documents\source\gFluidSim\fluid.cpp C:\Users\ask85\Documents\source\gFluidSim\fluid_system.cpp C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp C:\Users\ask85\Documents\source\sample_utils\file_png.cpp C:\Users\ask85\Documents\source\sample_utils\file_tga.cpp C:\Users\ask85\Documents\source\sample_utils\main_win.cpp C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp
+         fluid.cpp
+     1>C:\Users\ask85\Documents\include\gvdb_vec.h(89): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>C:\Users\ask85\Documents\include\gvdb_vec.h(92): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>C:\Users\ask85\Documents\include\gvdb_vec.h(95): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>C:\Users\ask85\Documents\include\gvdb_vec.h(98): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+         fluid_system.cpp
+     1>C:\Users\ask85\Documents\include\gvdb_vec.h(89): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>C:\Users\ask85\Documents\include\gvdb_vec.h(92): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>C:\Users\ask85\Documents\include\gvdb_vec.h(95): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>C:\Users\ask85\Documents\include\gvdb_vec.h(98): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\source\gfluidsim\fluid_system.h(160): warning C4005: 'ALPH' : macro redefinition
+                 c:\users\ask85\documents\include\gvdb_types.h(85) : see previous definition of 'ALPH'
+     1>c:\users\ask85\documents\source\gfluidsim\fluid_system.h(161): warning C4005: 'BLUE' : macro redefinition
+                 c:\users\ask85\documents\include\gvdb_types.h(86) : see previous definition of 'BLUE'
+     1>c:\users\ask85\documents\source\gfluidsim\fluid_system.h(162): warning C4005: 'GRN' : macro redefinition
+                 c:\users\ask85\documents\include\gvdb_types.h(87) : see previous definition of 'GRN'
+     1>c:\users\ask85\documents\source\gfluidsim\fluid_system.h(163): warning C4005: 'RED' : macro redefinition
+                 c:\users\ask85\documents\include\gvdb_types.h(88) : see previous definition of 'RED'
+     1>C:\Users\ask85\Documents\source\gFluidSim\fluid_system.cpp(159): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\fluid_system.cpp(192): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\fluid_system.cpp(294): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\fluid_system.cpp(1520): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\gFluidSim\fluid_system.cpp(2641): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\fluid_system.cpp(2642): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\fluid_system.cpp(2643): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\fluid_system.cpp(2644): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         main_fluid_sim.cpp
+     1>c:\users\ask85\documents\include\gvdb_vec.h(89): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(92): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(95): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(98): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+         gvdb_node
+     1>c:\users\ask85\documents\include\gvdb_node.h(125): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\ask85\documents\include\gvdb_node.h(137): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\ask85\documents\include\gvdb_node.h(171): warning C4244: 'initializing' : conversion from 'uint64' to 'int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_node.h(190): warning C4244: '+=' : conversion from 'uint64' to 'uint32', possible loss of data
+     1>c:\users\ask85\documents\source\gfluidsim\fluid_system.h(155): warning C4005: 'FUNC_PREFIXSUM' : macro redefinition
+                 c:\users\ask85\documents\include\gvdb_volume_gvdb.h(160) : see previous definition of 'FUNC_PREFIXSUM'
+     1>c:\users\ask85\documents\source\gfluidsim\fluid_system.h(156): warning C4005: 'FUNC_PREFIXFIXUP' : macro redefinition
+                 c:\users\ask85\documents\include\gvdb_volume_gvdb.h(161) : see previous definition of 'FUNC_PREFIXFIXUP'
+     1>c:\users\ask85\documents\source\gfluidsim\fluid_system.h(160): warning C4005: 'ALPH' : macro redefinition
+                 c:\users\ask85\documents\include\gvdb_types.h(85) : see previous definition of 'ALPH'
+     1>c:\users\ask85\documents\source\gfluidsim\fluid_system.h(161): warning C4005: 'BLUE' : macro redefinition
+                 c:\users\ask85\documents\include\gvdb_types.h(86) : see previous definition of 'BLUE'
+     1>c:\users\ask85\documents\source\gfluidsim\fluid_system.h(162): warning C4005: 'GRN' : macro redefinition
+                 c:\users\ask85\documents\include\gvdb_types.h(87) : see previous definition of 'GRN'
+     1>c:\users\ask85\documents\source\gfluidsim\fluid_system.h(163): warning C4005: 'RED' : macro redefinition
+                 c:\users\ask85\documents\include\gvdb_types.h(88) : see previous definition of 'RED'
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(82): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(83): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(84): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(85): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(96): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(98): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(99): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(100): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(101): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(107): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(135): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(139): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(239): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(208): warning C4101: 'pt' : unreferenced local variable
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(207): warning C4101: 'c1' : unreferenced local variable
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(316): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(349): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(350): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\gFluidSim\main_fluid_sim.cpp(386): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         file_png.cpp
+     1>C:\Users\ask85\Documents\source\sample_utils\file_png.cpp(356): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\ask85\Documents\source\sample_utils\file_png.cpp(378): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         file_tga.cpp
+     1>C:\Users\ask85\Documents\source\sample_utils\file_tga.cpp(124): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>C:\Users\ask85\Documents\source\sample_utils\file_tga.cpp(241): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         main_win.cpp
+     1>C:\Users\ask85\Documents\source\sample_utils\main_win.cpp(1049): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\main_win.cpp(1071): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\main_win.cpp(1453): warning C4018: '<' : signed/unsigned mismatch
+         nv_gui.cpp
+     1>c:\users\ask85\documents\include\gvdb_vec.h(89): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(92): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(95): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>c:\users\ask85\documents\include\gvdb_vec.h(98): warning C4244: 'argument' : conversion from 'const float' to 'const int', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(106): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(107): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(108): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(122): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(139): warning C4018: '>=' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(141): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(143): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(161): warning C4018: '>=' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(214): warning C4018: '>=' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(231): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(233): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(280): warning C4244: 'initializing' : conversion from 'ulong' to 'unsigned long', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(284): warning C4244: 'argument' : conversion from 'ulong' to 'size_t', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(291): warning C4244: '=' : conversion from 'ulong' to 'int', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(301): warning C4244: 'initializing' : conversion from 'ulong' to 'unsigned long', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(305): warning C4244: 'argument' : conversion from 'ulong' to 'size_t', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(306): warning C4244: 'argument' : conversion from 'ulong' to 'size_t', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(316): warning C4244: '=' : conversion from 'ulong' to 'int', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(324): warning C4244: 'initializing' : conversion from 'ulong' to 'unsigned long', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(328): warning C4244: 'argument' : conversion from 'ulong' to 'size_t', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1011): warning C4244: 'argument' : conversion from 'ulong' to 'GLsizeiptr', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1057): warning C4244: 'argument' : conversion from 'ulong' to 'GLsizei', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1068): warning C4244: 'argument' : conversion from 'ulong' to 'GLsizei', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1077): warning C4244: 'argument' : conversion from 'ulong' to 'GLsizei', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1098): warning C4244: 'argument' : conversion from 'ulong' to 'GLsizei', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1133): warning C4244: 'argument' : conversion from 'ulong' to 'GLsizei', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1186): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1300): warning C4018: '>=' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1324): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1390): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1415): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1434): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1434): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1435): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1437): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1446): warning C4018: '>=' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1448): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1469): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1478): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1487): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1572): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1774): warning C4018: '<' : signed/unsigned mismatch
+     1>C:\Users\ask85\Documents\source\sample_utils\nv_gui.cpp(1797): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\ask85\Documents\include /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /IC:\Users\ask85\Documents\source\sample_utils /IC:\Users\ask85\Documents\source\gFluidSim /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D USE_GVDB /D USE_CUDA /D GVDB_IMPORTS /D GLEW_STATIC /D GLEW_NO_GLU /D "ASSET_PATH=\"C:/Users/ask85/Documents/source/shared_assets/\"" /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"gFluidSim.dir\Release\\" /Fd"gFluidSim.dir\Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt C:\Users\ask85\Documents\source\sample_utils\glew.c
+         glew.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ask85\Documents\GVDB_build\gFluidSim\gFluidSim.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\Users\ask85\Documents\lib\libgvdb.lib "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32\cuda.lib" opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/ask85/Documents/GVDB_build/gFluidSim/gFluidSim.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ask85/Documents/GVDB_build/gFluidSim/Release/gFluidSim.lib" /MACHINE:X86 /SAFESEH   /machine:X86 gFluidSim.dir\Release\fluid.obj
+         gFluidSim.dir\Release\fluid_system.obj
+         gFluidSim.dir\Release\main_fluid_sim.obj
+         gFluidSim.dir\Release\file_png.obj
+         gFluidSim.dir\Release\file_tga.obj
+         gFluidSim.dir\Release\glew.obj
+         gFluidSim.dir\Release\main_win.obj
+         gFluidSim.dir\Release\nv_gui.obj
+            Creating library C:/Users/ask85/Documents/GVDB_build/gFluidSim/Release/gFluidSim.lib and object C:/Users/ask85/Documents/GVDB_build/gFluidSim/Release/gFluidSim.exp
+         gFluidSim.vcxproj -> C:\Users\ask85\Documents\GVDB_build\gFluidSim\gFluidSim.exe
+       PostBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/voxelize.frag.glsl C:/Users/ask85/Documents/GVDB_build/gFluidSim
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/voxelize.geom.glsl C:/Users/ask85/Documents/GVDB_build/gFluidSim
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/voxelize.vert.glsl C:/Users/ask85/Documents/GVDB_build/gFluidSim
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/cuda_gvdb_copydata.ptx C:/Users/ask85/Documents/GVDB_build/gFluidSim
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/cuda_gvdb_module.ptx C:/Users/ask85/Documents/GVDB_build/gFluidSim
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/libgvdb.dll C:/Users/ask85/Documents/GVDB_build/gFluidSim
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/libgvdb.dll C:/Users/ask85/Documents/GVDB_build/gFluidSim
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/GVDB_build/gFluidSim/Release/fluid_system_cuda.ptx C:/Users/ask85/Documents/GVDB_build/gFluidSim
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "C:\Users\ask85\Documents\GVDB_build\gFluidSim\gFluidSim.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.70

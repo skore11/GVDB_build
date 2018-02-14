@@ -1,0 +1,10 @@
+﻿Build started 7/11/2017 1:23:03 PM.
+     1>Project "C:\Users\ask85\Documents\GVDB_build\gRender_Kernel\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/ask85/Documents/GVDB_build/gRender_Kernel/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\Users\ask85\Documents\GVDB_build\gRender_Kernel\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08

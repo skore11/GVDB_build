@@ -1,0 +1,77 @@
+﻿Build started 7/11/2017 1:17:22 PM.
+     1>Project "C:\Users\ask85\Documents\GVDB_build\gRendertoFile\gRenderToFile.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ask85\Documents\GVDB_build\gRendertoFile\gRenderToFile.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib C:\Users\ask85\Documents\lib\libgvdb.lib "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32\cuda.lib" opengl32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/ask85/Documents/GVDB_build/gRendertoFile/gRenderToFile.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/ask85/Documents/GVDB_build/gRendertoFile/Debug/gRenderToFile.lib" /MACHINE:X86 /SAFESEH   /machine:X86 gRenderToFile.dir\Debug\main_rendertofile.obj
+         gRenderToFile.dir\Debug\file_png.obj
+         gRenderToFile.dir\Debug\glew.obj
+         gRenderToFile.vcxproj -> C:\Users\ask85\Documents\GVDB_build\gRendertoFile\gRenderToFile.exe
+       PostBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/voxelize.frag.glsl C:/Users/ask85/Documents/GVDB_build/gRendertoFile
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/voxelize.geom.glsl C:/Users/ask85/Documents/GVDB_build/gRendertoFile
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/voxelize.vert.glsl C:/Users/ask85/Documents/GVDB_build/gRendertoFile
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/cuda_gvdb_copydata.ptx C:/Users/ask85/Documents/GVDB_build/gRendertoFile
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/cuda_gvdb_module.ptx C:/Users/ask85/Documents/GVDB_build/gRendertoFile
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/libgvdb.dll C:/Users/ask85/Documents/GVDB_build/gRendertoFile
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/ask85/Documents/lib/libgvdb.dll C:/Users/ask85/Documents/GVDB_build/gRendertoFile
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+     1>Done Building Project "C:\Users\ask85\Documents\GVDB_build\gRendertoFile\gRenderToFile.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.91
